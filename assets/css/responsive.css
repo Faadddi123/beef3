@@ -1,0 +1,422 @@
+@media (max-width : 1028px){
+    body{
+        background-color: black;
+        color: white;
+    }
+    header{
+        font-size: 200%;
+        font-family: 'Inter';
+    }
+    
+    .head{
+        display: flex;
+        padding: 1% ;
+        justify-content: center;
+        justify-content: space-between;
+        
+    }
+    .logo{
+        justify-content: start;
+    }
+    .types{
+        
+        justify-content: space-between;     
+        display: flex;
+        justify-content: end;
+        width: 30%;
+        
+    }
+    .Notreoffretext{
+        font-size: 150%;
+        margin-bottom: 20%;
+    }
+    .lisser{
+        margin-left: 2%;
+    }
+    
+    .types a{
+        padding: 0% 6% 6% 0%;
+        text-decoration: none;
+        color: white;
+    }
+    .face {
+        background-image: url(../images/face_1.png)!important;
+        background-size: cover;
+        height: 150vh;
+    }
+    .face_text{
+        padding: 7%;
+        font-size: 1700%;
+        font-family: 'Inter';
+        
+    }
+    .f_text1{
+        
+    }
+    .f_text2{
+        margin-top: 5%;
+        
+        display: flex;
+    justify-content: end;
+    }
+    .www{
+        margin-top: 5%;
+        background-image: url(../images/image\ 1.png);
+        height: 70vh;
+        background-size: cover;
+    }
+    .choix_type1{
+        padding: 0% 5% 5% ;
+        margin-top: 10%;
+        font-family: 'Inter';
+    }
+    .titre_choix1{
+        font-size: 5rem;
+        margin-bottom: 8%;
+        margin-left: 5%;
+    }
+    .titre_choix2{
+        font-size: 5rem;
+        margin-bottom: 8%;
+        margin-left: 5%;
+    
+    }
+    .image_choix{
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 8%;
+    }
+    .image_choix img{
+        border-radius: 20px;
+        width: 100%;
+    }
+    .tr img:hover{
+        background-image: url(../images/image\ 15.png);
+        position: relative;
+        z-index: 900;
+    }
+    .sub{
+        display: flex;
+        margin-right: 25%;
+        margin-left: 30%;
+        padding-top: 3%;
+        
+        justify-content: space-between;
+    }
+    .sub_title{
+        font-size: 200%;
+       
+    }
+    .sub_enter input[type = "text"]{
+        font-size: 200%;
+       width: 75%;
+       background-color: black;
+       border-color: white;
+       border: none;
+       border-bottom: 3px solid;
+       
+       
+    }
+    .btn {
+        padding-top: 7%;
+        text-align: center;
+    }
+    .new-button2{
+        font-size: 35px;
+        
+        background-color: white;
+        color: black ;
+        border:5px solid;
+    
+        border-color: white;
+        transition: 1s;
+        text-align: center;
+      
+      }
+      .FAQ{
+        text-align: center;
+        border: none;
+        font-size: 2rem;
+        border-bottom: 2px solid;
+    
+      }
+      .util{
+        font-size: 2rem;
+        margin-bottom: 1%;
+      }
+      .onquest{
+        background-color: grey;
+        opacity: 0.5;
+        border-radius: 20px;
+      }
+      .quest{
+        
+        height: 4rem;
+        
+        margin-left:3%;
+    margin-bottom: 10%;
+    
+      }
+      .prixtitre{
+        display: flex;
+    justify-content: space-between;
+        
+      }
+    .mintitre{
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 2%;
+        margin-top: 2%;
+    }
+    .l999l{
+        text-align: center;
+        font-size: 2rem;
+    }
+    .Special{
+        font-size: 3rem;
+        margin-left: 5%;
+    }
+    .spelem{
+        display: flex;
+        margin-bottom: 10%;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    .Specialprix{
+        font-size: 2rem;
+        margin-top: 1%;
+        margin-left: 1%;
+        
+    }
+    .image_jacket{
+        width: 100%;
+        transition: 1s;
+        width: 80%;
+    }
+    .prixresponsive{
+        margin-bottom: 5%;
+        
+        display: flex;
+    }
+    .respon-wtf{
+        width: 150%;
+    }
+    .image_jacket2{
+        width: 100%;
+        transition: 1s;
+        
+    }
+}
+@media (max-width : 760px){
+    body{
+        background-color: black;
+        color: white;
+    }
+    header{
+        font-size: 200%;
+        font-family: 'Inter';
+    }
+    
+    .head{
+        display: flex;
+        padding: 1% ;
+        justify-content: center;
+        justify-content: space-between;
+        
+    }
+    .logo{
+        justify-content: start;
+    }
+    .types{
+        
+        justify-content: space-between;     
+        display: flex;
+        justify-content: end;
+        width: 30%;
+        
+    }
+    .Notreoffretext{
+        font-size: 150%;
+        margin-bottom: 20%;
+    }
+    .lisser{
+        margin-left: 2%;
+    }
+    
+    .types a{
+        padding: 0% 6% 6% 0%;
+        text-decoration: none;
+        color: white;
+    }
+    .face {
+        background-image: url(../images/face_1.png)!important;
+        background-size: cover;
+        height: 150vh;
+    }
+    .face_text{
+        padding: 7%;
+        font-size: 1700%;
+        font-family: 'Inter';
+        
+    }
+    .f_text1{
+        
+    }
+    .f_text2{
+        margin-top: 5%;
+        
+        display: flex;
+    justify-content: end;
+    }
+    .www{
+        margin-top: 5%;
+        background-image: url(../images/image\ 1.png);
+        height: 70vh;
+        background-size: cover;
+    }
+    .choix_type1{
+        padding: 0% 5% 5% ;
+        margin-top: 10%;
+        font-family: 'Inter';
+    }
+    .titre_choix1{
+        font-size: 3rem;
+        margin-bottom: 8%;
+        margin-left: 5%;
+    }
+    .titre_choix2{
+        font-size: 3rem;
+        margin-bottom: 8%;
+        margin-left: 5%;
+    
+    }
+    .image_choix{
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 8%;
+    }
+    .image_choix img{
+        border-radius: 20px;
+        width: 100%;
+    }
+    .tr img:hover{
+        background-image: url(../images/image\ 15.png);
+        position: relative;
+        z-index: 900;
+    }
+    .sub{
+        display: flex;
+        margin-right: 25%;
+        margin-left: 30%;
+        padding-top: 3%;
+        
+        justify-content: space-between;
+    }
+    .sub_title{
+        font-size: 200%;
+       
+    }
+    .sub_enter input[type = "text"]{
+        font-size: 200%;
+       width: 75%;
+       background-color: black;
+       border-color: white;
+       border: none;
+       border-bottom: 3px solid;
+       
+       
+    }
+    .btn {
+        padding-top: 7%;
+        text-align: center;
+    }
+    .new-button2{
+        font-size: 35px;
+        
+        background-color: white;
+        color: black ;
+        border:5px solid;
+    
+        border-color: white;
+        transition: 1s;
+        text-align: center;
+      
+      }
+      .FAQ{
+        text-align: center;
+        border: none;
+        font-size: 2rem;
+        border-bottom: 2px solid;
+    
+      }
+      .util{
+        font-size: 2rem;
+        margin-bottom: 1%;
+      }
+      .onquest{
+        background-color: grey;
+        opacity: 0.5;
+        border-radius: 20px;
+      }
+      .quest{
+        
+        height: 4rem;
+        
+        margin-left:3%;
+    margin-bottom: 10%;
+    
+      }
+      .prixtitre{
+        justify-content: center;
+        display: block;
+        
+      }
+    .mintitre{
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 2%;
+        margin-top: 2%;
+    }
+    .l999l{
+        text-align: center;
+        font-size: 2rem;
+    }
+    .Special{
+        font-size: 3rem;
+        margin-left: 5%;
+    }
+    .spelem{
+        display: flex;
+        margin-bottom: 10%;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    .Specialprix{
+        font-size: 2rem;
+        margin-top: 1%;
+        margin-left: 1%;
+        
+    }
+    .image_jacket{
+        width: 100%;
+        transition: 1s;
+        width: 80%;
+    }
+    .prixresponsive{
+        width: auto;
+        margin-bottom: 5%;
+        justify-content: center;
+        display: flex;
+    }
+    .image1{
+        margin: ;
+    }
+    .respon-wtf{
+        width: 150%;
+    }
+    .image_jacket2{
+        width: 100%;
+        transition: 1s;
+        
+    }
+}

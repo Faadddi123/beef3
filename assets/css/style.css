@@ -3,7 +3,7 @@ body{
     color: white;
 }
 header{
-    font-size: 300%;
+    font-size: 200%;
     font-family: 'Inter';
 }
 
@@ -22,6 +22,7 @@ header{
     justify-content: space-between;     
     display: flex;
     justify-content: end;
+    width: 30%;
     
 }
 
@@ -148,3 +149,36 @@ justify-content: end;
 margin-bottom: 10%;
 
   }
+  .prixtitre{
+    display: flex;
+    
+    justify-content: space-between;
+  }
+.mintitre{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+.l999l{
+    text-align: center;
+    font-size: 2rem;
+}
+.Special{
+    font-size: 3rem;
+    margin-left: 5%;
+}
+.spelem{
+    display: flex;margin-bottom: 10%;padding-right: 10%;padding-left: 5%;
+}
+.prixresponsive{
+    width: 50vw;
+    margin-bottom: 5%;
+        justify-content: space-between;
+    display: flex;
+}
+.Specialprix{
+    font-size: 2rem;
+    margin-top: 1%;
+    margin-left: 1%;
+}
