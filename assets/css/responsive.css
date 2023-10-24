@@ -1,3 +1,207 @@
+@media (max-width : 1227px) {
+    body{
+        background-color: black;
+        color: white;
+    }
+    header{
+        font-size: 200%;
+        font-family: 'Inter';
+    }
+    
+    .head{
+        display: flex;
+        padding: 1% ;
+        justify-content: center;
+        justify-content: space-between;
+        
+    }
+    .logo{
+        justify-content: start;
+    }
+    .types{
+        
+        justify-content: space-between;     
+        display: flex;
+        justify-content: end;
+        width: 30%;
+        
+    }   
+    .image1{
+        margin: 10%;
+    }
+    
+    .types a{
+        padding: 0% 6% 6% 0%;
+        text-decoration: none;
+        color: white;
+    }
+    .face {
+        background-image: url(../images/face_1.png)!important;
+        background-size: cover;
+        height: 150vh;
+    }
+    .face_text{
+        padding: 7%;
+        font-size: 17vw;
+        font-family: 'Inter';
+        
+    }
+    .f_text1{
+        
+    }
+    .f_text2{
+        margin-top: 5%;
+        
+        display: flex;
+    justify-content: end;
+    }
+    .Notreoffretext{
+        text-align: justify;
+        font-size: 280%;
+        margin-bottom: 2%;
+    }
+    .lisser{
+        margin-left: 2%;
+    }
+    .www{
+        margin-top: 5%;
+        background-image: url(../images/image\ 1.png);
+        height: 70vh;
+        background-size: cover;
+    }
+    .choix_type1{
+        padding: 0% 5% 5% ;
+        margin-top: 10%;
+        font-family: 'Inter';
+    }
+    .titre_choix1{
+        font-size: 6rem;
+        margin-bottom: 8%;
+        margin-left: 5%;
+    }
+    .titre_choix2{
+        font-size: 6rem;
+        margin-bottom: 8%;
+        margin-left: 5%;
+    
+    }
+    .image_choix{
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 8%;
+    }
+    .image_choix img{
+        border-radius: 20px;
+        width: 100%;
+    }
+    .tr img:hover{
+        background-image: url(../images/image\ 15.png);
+        position: relative;
+        z-index: 900;
+    }
+    .sub{
+        display: flex;
+        margin-right: 25%;
+        margin-left: 30%;
+        padding-top: 3%;
+        
+        justify-content: space-between;
+    }
+    .sub_title{
+        font-size: 5vw;
+       
+    }
+    .sub_enter input[type = "text"]{
+        font-size: 5vw;
+       width: 75%;
+       background-color: black;
+       border-color: white;
+       border: none;
+       border-bottom: 3px solid;
+       
+       
+    }
+    .btn {
+        padding-top: 7%;
+        text-align: center;
+    }
+    .new-button2{
+        font-size: 35px;
+        
+        background-color: white;
+        color: black ;
+        border:5px solid;
+    
+        border-color: white;
+        transition: 1s;
+        text-align: center;
+      
+      }
+      .FAQ{
+        text-align: center;
+        border: none;
+        font-size: 2rem;
+        border-bottom: 2px solid;
+    
+      }
+      .util{
+        font-size: 2rem;
+        margin-bottom: 1%;
+      }
+      .onquest{
+        background-color: grey;
+        opacity: 0.5;
+        border-radius: 20px;
+      }
+      .quest{
+        
+        height: 4rem;
+        
+        margin-left:3%;
+    margin-bottom: 10%;
+    
+      }
+      .prixtitre{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);   
+    text-align: center;
+      }
+    .mintitre{
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 2%;
+        margin-top: 2%;
+    }
+    .l999l{
+        text-align: center;
+        font-size: 2rem;
+    }
+    .Special{
+        font-size: 3rem;
+        margin-left: 5%;
+    }
+    .spelem{
+        display: flex;margin-bottom: 10%;padding-right: 10%;padding-left: 5%;
+    }
+    
+    .image_jacket{
+        width: auto;
+        transition: 1s;
+       
+    }
+    .prixresponsive{
+        margin-bottom: 5%;
+        
+    }
+    
+    .Specialprix{
+        font-size: 2rem;
+        margin-top: 1%;
+        margin-left: 1%;
+    }
+    
+    
+}
 @media (max-width : 1028px){
     body{
         background-color: black;
@@ -46,7 +250,7 @@
     }
     .face_text{
         padding: 7%;
-        font-size: 1700%;
+        font-size: 17vw;
         font-family: 'Inter';
         
     }
@@ -104,11 +308,11 @@
         justify-content: space-between;
     }
     .sub_title{
-        font-size: 200%;
+        font-size: 5vw;
        
     }
     .sub_enter input[type = "text"]{
-        font-size: 200%;
+        font-size: 5vw;
        width: 75%;
        background-color: black;
        border-color: white;
@@ -158,10 +362,12 @@
     
       }
       .prixtitre{
-        display: flex;
-    justify-content: space-between;
-        
-      }
+        display: grid;
+        grid-template-columns: repeat(4,1fr);   
+          }
+    .image-jacket{
+        width: 80%;
+    }
     .mintitre{
         text-align: center;
         font-size: 2rem;
@@ -207,6 +413,7 @@
         
     }
 }
+/* zdazdadazda */
 @media (max-width : 760px){
     body{
         background-color: black;
@@ -236,7 +443,7 @@
         
     }
     .Notreoffretext{
-        font-size: 150%;
+        font-size: 70%;
         margin-bottom: 20%;
     }
     .lisser{
@@ -255,7 +462,7 @@
     }
     .face_text{
         padding: 7%;
-        font-size: 1700%;
+        font-size: 15vw;
         font-family: 'Inter';
         
     }
@@ -290,10 +497,12 @@
         margin-left: 5%;
     
     }
+    
     .image_choix{
         display: flex;
         justify-content: space-evenly;
-        margin-bottom: 8%;
+        margin-top: 25%;
+        margin-bottom: 10%;
     }
     .image_choix img{
         border-radius: 20px;
@@ -313,11 +522,11 @@
         justify-content: space-between;
     }
     .sub_title{
-        font-size: 200%;
+        font-size: 5vw;
        
     }
     .sub_enter input[type = "text"]{
-        font-size: 200%;
+        font-size: 5vw;
        width: 75%;
        background-color: black;
        border-color: white;
@@ -367,10 +576,9 @@
     
       }
       .prixtitre{
-        justify-content: center;
-        display: block;
-        
-      }
+        display: grid;
+        grid-template-columns: repeat(2,1fr);   
+          }
     .mintitre{
         text-align: center;
         font-size: 2rem;
@@ -409,7 +617,7 @@
         display: flex;
     }
     .image1{
-        margin: ;
+        margin: 10%;
     }
     .respon-wtf{
         width: 150%;
@@ -418,5 +626,10 @@
         width: 100%;
         transition: 1s;
         
+    }
+}
+@media (max-width : 990px){
+    .image_choix{
+
     }
 }
