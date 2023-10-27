@@ -11,18 +11,33 @@
 
 </head>
 <body>
+    
     <header>
-        <div class="head">
-            <div class="logo">
-Fashion Hub
+        <nav class="brif3-main-navbar">
+          <div class="main-nav-container">
+            <div class="main-nav-brand"><a href="index.html">FashH</a></div>
+            <div class="main-nav-menu">
+              <a class="active" href="index.html">Home</a>
+              <a href="shop.html">Catalog</a>
+              <a href="index.html">Gallery</a>
             </div>
-            <div class="types">
-                <a href="index.html" >Home</a>
-                <a href="shop.html" >Shop</a>
-                <a href="" >Sign</a>
+            <div class="main-nav-sub"><a class="sub-btn" href="sub.html">Subscibe</a></div>
+          </div>
+        </nav>
+  
+        <nav class="brif3-mobile-menu">
+          <div><a href="index.html">FashH</a></div>
+          <div>
+            <button class="brif3-menu-toggle">☰</button>
+            <div class="brif3-dropdown-menu">
+              <a class="active" href="index.html">Home</a>
+              <a href="index.html">Catalog</a>
+              <a href="shop.html">Gallery</a>
+              <a class="sub-btn" href="sub.html">Subscibe</a>
             </div>
-        </div>
-    </header>
+          </div>
+        </nav>
+      </header>
     <section class="face">
         <div class="face_text">
             <div class="f_text1">Fashion</div>
@@ -59,7 +74,7 @@ Fashion Hub
                     </button>
                 </div>
             </div>
-            <div class="tr">
+            <div class="tr"  class="image_home">
                 <img style="width: 100%;" src="assets/images/image 2.png" alt="">
             </div>
         </div>
@@ -71,7 +86,7 @@ Fashion Hub
             Notre offre 
         </div>
         <div style="display: flex;justify-content: space-between;padding: 0% 5% 0 5%;">
-            <div>
+            <div class="image_home">
                 <img style="width: 100%;" src="assets/images/image 3.png" alt="">
             </div>
             <div style="width: 55%;" class="lisser">
@@ -120,7 +135,7 @@ Fashion Hub
                     </button>
                 </div>
             </div>
-            <div>
+            <div class="image_home">
                 <img style="width: 110%;" src="assets/images/image 7.png" alt="">
             </div>
         </div>
@@ -132,7 +147,7 @@ Fashion Hub
             Notre offre 
         </div>
         <div style="display: flex;justify-content: space-between;padding: 0% 5% 0 5%;">
-            <div>
+            <div class="image_home">
                 <img style="width: 100%;" src="assets/images/image 12.png" alt="">
             </div>
             <div class="lisser" style="width: 55%;">
@@ -224,5 +239,28 @@ Fashion Hub
     <footer>
 
     </footer>
+    <script>
+        // Select the HTML element with the class "brif3-menu-toggle" and store it in the variable menuToggle
+      const menuToggle = document.querySelector(".brif3-menu-toggle");
+
+// Select the HTML element with the class "brif3-dropdown-menu" and store it in the variable dropdownMenu
+const dropdownMenu = document.querySelector(".brif3-dropdown-menu");
+
+// Add a click event listener to the menuToggle element
+menuToggle.addEventListener("click", () => {
+  // When menuToggle is clicked, toggle the display property of dropdownMenu
+
+  // Check if the current display style of dropdownMenu is "block"
+  if (dropdownMenu.style.display === "block") {
+    dropdownMenu.style.display = "none";
+  } else {
+    dropdownMenu.style.display = "block";
+  }
+
+  // Explanation of the line above:
+  // If dropdownMenu is currently visible ("block"), set its display style to "none" (hide it)
+  // If dropdownMenu is currently hidden, set its display style to "block" (show it)
+});
+    </script>
 </body>
 </html>

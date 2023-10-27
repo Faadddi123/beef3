@@ -16,6 +16,7 @@
         
     }
     .logo{
+       
         justify-content: start;
     }
     .types{
@@ -101,18 +102,20 @@
     }
     .sub{
         display: flex;
-        margin-right: 25%;
-        margin-left: 30%;
-        padding-top: 3%;
+        margin-right: 4vw;
+        margin-left: 4vw;
+        padding-top: 10% !important;
         
         justify-content: space-between;
     }
     .sub_title{
-        font-size: 5vw;
        
+      
+
+
     }
     .sub_enter input[type = "text"]{
-        font-size: 5vw;
+        
        width: 75%;
        background-color: black;
        border-color: white;
@@ -301,18 +304,18 @@
     }
     .sub{
         display: flex;
-        margin-right: 25%;
-        margin-left: 30%;
+        margin-right: 3vw;
+        margin-left: 3vw;
         padding-top: 3%;
         
         justify-content: space-between;
     }
     .sub_title{
-        font-size: 5vw;
+        font-size: 30px;
        
     }
     .sub_enter input[type = "text"]{
-        font-size: 5vw;
+        font-size: 30px;
        width: 75%;
        background-color: black;
        border-color: white;
@@ -326,7 +329,7 @@
         text-align: center;
     }
     .new-button2{
-        font-size: 35px;
+        font-size: 31px;
         
         background-color: white;
         color: black ;
@@ -469,6 +472,13 @@
     .f_text1{
         
     }
+    .brif3-mobile-menu {
+        display: flex;
+        justify-content: space-between;
+      }
+      .brif3-main-navbar {
+        display: none;
+      }
     .f_text2{
         margin-top: 5%;
         
@@ -497,7 +507,9 @@
         margin-left: 5%;
     
     }
-    
+    .titre_subscribtion{
+        font-size: 30px !important;
+    }
     .image_choix{
         display: flex;
         justify-content: space-evenly;
@@ -515,18 +527,18 @@
     }
     .sub{
         display: flex;
-        margin-right: 25%;
-        margin-left: 30%;
+        margin-right: 1.5vw;
+        margin-left: 1.5vw;
         padding-top: 3%;
         
         justify-content: space-between;
     }
     .sub_title{
-        font-size: 5vw;
-       
+        
+       font-size: 15px;
     }
     .sub_enter input[type = "text"]{
-        font-size: 5vw;
+        font-size: 15px;
        width: 75%;
        background-color: black;
        border-color: white;
@@ -540,7 +552,7 @@
         text-align: center;
     }
     .new-button2{
-        font-size: 35px;
+        font-size: 15px;
         
         background-color: white;
         color: black ;
@@ -628,8 +640,9 @@
         
     }
 }
-@media (max-width : 990px){
-    .image_choix{
 
+@media (max-width : 442px){
+    .image_home{
+        width: 50%;
     }
 }

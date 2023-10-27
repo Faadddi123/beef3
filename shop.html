@@ -10,17 +10,31 @@
 </head>
 <body>
     <header>
-        <div class="head">
-            <div class="logo">
-                Fashion Hub
+        <nav class="brif3-main-navbar">
+          <div class="main-nav-container">
+            <div class="main-nav-brand"><a href="index.html">FashH</a></div>
+            <div class="main-nav-menu">
+              <a class="active" href="index.html">Home</a>
+              <a href="shop.html">Catalog</a>
+              <a href="index.html">Gallery</a>
             </div>
-            <div class="types">
-                <a href="index.html" >Home</a>
-                <a href="shop.html" >Shop</a>
-                <a href="" >Sign</a>
+            <a class="sub-btn" href="sub.html">Subscibe</a>
+          </div>
+        </nav>
+  
+        <nav class="brif3-mobile-menu">
+          <div><a href="index.html">FashH</a></div>
+          <div>
+            <button class="brif3-menu-toggle">☰</button>
+            <div class="brif3-dropdown-menu">
+              <a class="active" href="index.html">Home</a>
+              <a href="index.html">Catalog</a>
+              <a href="shop.html">Gallery</a>
+              <a class="sub-btn" href="sub.html">Subscibe</a>
             </div>
-        </div>
-    </header>
+          </div>
+        </nav>
+      </header>
 
     <section class="choix_type1">
         <div class="titre_choix1" style="margin-bottom: 5%;">
@@ -123,7 +137,29 @@
     <!-- dik lmlawna -->
     
     
-   
+   <script>
+    // Select the HTML element with the class "brif3-menu-toggle" and store it in the variable menuToggle
+    const menuToggle = document.querySelector(".brif3-menu-toggle");
+
+// Select the HTML element with the class "brif3-dropdown-menu" and store it in the variable dropdownMenu
+const dropdownMenu = document.querySelector(".brif3-dropdown-menu");
+
+// Add a click event listener to the menuToggle element
+menuToggle.addEventListener("click", () => {
+  // When menuToggle is clicked, toggle the display property of dropdownMenu
+
+  // Check if the current display style of dropdownMenu is "block"
+  if (dropdownMenu.style.display === "block") {
+    dropdownMenu.style.display = "none";
+  } else {
+    dropdownMenu.style.display = "block";
+  }
+
+  // Explanation of the line above:
+  // If dropdownMenu is currently visible ("block"), set its display style to "none" (hide it)
+  // If dropdownMenu is currently hidden, set its display style to "block" (show it)
+});
+   </script>
 
 </body>
 </html>

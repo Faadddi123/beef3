@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <nav class="brif3-main-navbar">
+          <div class="main-nav-container">
+            <div class="main-nav-brand"><a href="index.html">FashH</a></div>
+            <div class="main-nav-menu">
+              <a class="active" href="index.html">Home</a>
+              <a href="shop.html">Catalog</a>
+              <a href="index.html">Gallery</a>
+            </div>
+            <a class="sub-btn" href="sub.html">Subscibe</a>
+          </div>
+        </nav>
+  
+        <nav class="brif3-mobile-menu">
+          <div><a href="index.html">FashH</a></div>
+          <div>
+            <button class="brif3-menu-toggle">☰</button>
+            <div class="brif3-dropdown-menu">
+              <a class="active" href="index.html">Home</a>
+              <a href="index.html">Catalog</a>
+              <a href="shop.html">Gallery</a>
+              <a class="sub-btn" href="sub.html">Subscibe</a>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+    <section class="brif3-signup-sec">
+        <div class="sginup-sec-content">
+          <div class="signup-form">
+            <h2>
+              Join us in FashionHub and enjoy the best and most premium goods .
+            </h2>
+            <form onsubmit="return validateForm()" novalidate>
+              <div class="form-group">
+                <label for="username">Username :</label>
+                <input
+                  type="text"
+                  placeholder="Enter Your Username Here ..."
+                  id="username"
+                  name="username"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="email">Email :</label>
+                <input
+                  type="email"
+                  placeholder="Enter Your Email Here ..."
+                  id="email"
+                  name="email"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="password">Password :</label>
+                <input
+                  type="password"
+                  placeholder="Enter Your Password Here ..."
+                  id="password"
+                  name="password"
+                  required
+                />
+              </div>
+              <button type="submit">Sign Up</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+<script >
+    function validateForm() {
+        // Get values from input fields (username, email, and password)
+        var username = document.getElementById("username").value;
+        var email = document.getElementById("email").value;
+        var password = document.getElementById("password").value;
+    
+        // Regex patterns for email and password validation
+        var emailPattern = /^[^\s@]+@[^\s@]+.[^\s@]+$/;
+        var passwordPattern = /^(?=.[A-Za-z])(?=.\d)[A-Za-z\d]{8,}$/;
+    
+        // Validate email using regex pattern
+        if (!emailPattern.test(email)) {
+          alert("Invalid email address!"); // Show an alert if email is not valid
+          return false; // Prevent form submission
+        }
+    
+        // Validate password using regex pattern
+        if (!passwordPattern.test(password)) {
+          alert(
+            "Password must be at least 8 characters long and contain at least one letter and one number."
+          ); // Show an alert if password is not valid
+          return false; // Prevent form submission
+        }
+    
+        // Check if the username is empty
+        if (username === "") {
+          alert("Username is required!"); // Show an alert if username is empty
+          return false; // Prevent form submission
+        }
+    
+        // If all validations pass, the form is considered valid and can be submitted
+        return true;
+      }
+      // Select the HTML element with the class "brif3-menu-toggle" and store it in the variable menuToggle
+      const menuToggle = document.querySelector(".brif3-menu-toggle");
+
+      // Select the HTML element with the class "brif3-dropdown-menu" and store it in the variable dropdownMenu
+      const dropdownMenu = document.querySelector(".brif3-dropdown-menu");
+
+      // Add a click event listener to the menuToggle element
+      menuToggle.addEventListener("click", () => {
+        // When menuToggle is clicked, toggle the display property of dropdownMenu
+
+        // Check if the current display style of dropdownMenu is "block"
+        if (dropdownMenu.style.display === "block") {
+          dropdownMenu.style.display = "none";
+        } else {
+          dropdownMenu.style.display = "block";
+        }
+
+        // Explanation of the line above:
+        // If dropdownMenu is currently visible ("block"), set its display style to "none" (hide it)
+        // If dropdownMenu is currently hidden, set its display style to "block" (show it)
+      });
+</script>
+</body>
+</html>
