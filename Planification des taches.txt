@@ -1,0 +1,25 @@
+1 Jour 
+    le matin 
+        j'ai fait les creations des elements qu'il faut faire au figma
+    le midi
+        j'ai terminer les modifications de figma et j'ai commencé a travaller dans le site
+2 Jour
+    le matin 
+        j'ai bien fait la page principale du home 
+        et j'ai terminé les pages
+
+    le midi
+        plus que de modification sur le figma
+3 jour 
+    le matin 
+        j'ai terminer ce qu'il faut faire
+    le midi 
+        j'ai commencé a metre des modifications qui va lesser notre site reactible avec l'utilisateur
+4 jour
+    le matin 
+        Respensive web site
+    le midi 
+        plus de modifications
+5 jour
+    le matin
+        ajouter le README et la planification
