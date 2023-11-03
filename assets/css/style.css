@@ -135,6 +135,8 @@ header{
     color: black;
 }
 .main-nav-container{
+    padding-left: 5%;
+    padding-right: 5%;
     width: 95vw;
     display: flex;
     justify-content: space-between;
